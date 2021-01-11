@@ -1,0 +1,40 @@
+# String value and integer value of same interger isn't going same line 42 == '42' isn't same result will be False
+# AND operator, any variable's value is false then output will be False
+# True and True = True
+# False and True = False
+# True and False = False
+# False and False =  False
+
+# In OR operator, if any variable's value is True then output will be True
+# True or False = True
+# False or True = True
+# True or True = True
+# False or False = False
+
+# NOT operator, reverse value like
+# not True = False
+# not False = True
+
+           >>> 42 == 42
+                  True
+                  >>> 42 == 99
+                  False
+                  >>> 2 != 3
+                  True
+                  >>> 2 != 2
+                  False
+                  
+           >>> 'hello' == 'hello'
+               True
+               >>> 'hello' == 'Hello'
+               False
+               >>> 'dog' != 'cat'
+               True
+               >>> True == True
+               True
+               >>> True != False
+               True
+               >>> 42 == 42.0
+               True
+            ❶ >>> 42 == '42'
+               False
