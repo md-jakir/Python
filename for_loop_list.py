@@ -1,6 +1,6 @@
 # for loops with list
 
-for i in range(5):
+for i in range(1, 7):
   print(i)
 
 #  output: 
